@@ -1,0 +1,179 @@
+/* stylling table */
+
+h1{
+    text-align: center;
+    background: rgb(0,255,240);
+    background: rgb(142,134,148);
+    background: linear-gradient(90deg, rgba(142,134,148,1) 0%, rgba(0,0,0,0.8519782913165266) 50%, rgba(142,134,148,1) 100%);
+    color: white;
+}
+
+.container{
+    width: 690px;
+    height: 245px;
+    background-color: #d1e9eb;
+    box-shadow: 2px 5px 5px gray;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.table{
+    margin-left: 20px;
+    margin-right: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 650px;
+    text-align: center;
+    border-spacing: 5px 25px;
+    /* border-collapse: collapse; */
+}
+
+.table thead th{
+    color: rgb(85, 82, 82);
+}
+
+td{
+    box-shadow: 2px 5px 5px gray;
+    border-radius: 15px;
+    padding: 5px;
+    width: 30px;
+}
+
+.table tbody td:hover{
+    background-color: rgb(165, 215, 216);
+    cursor: pointer;
+    font-style: italic;
+}
+
+.table tbody tr {
+    background-color: white;
+    border: 1px solid ;
+}
+
+/* styling form */
+
+.para{
+    text-align: center;
+    font-size: 27px;
+}
+
+.para1{
+    text-align: center;
+    font-size: 18px;
+}
+
+.span{
+    font-weight: bold;
+}
+
+.span1:hover{
+    cursor: pointer;
+}
+
+.span1{
+    color: blue;
+}
+
+.field{
+    margin: auto;
+    box-shadow: 5px 10px 10px gray;
+    width: 555px;
+    border-radius: 20px;
+    background-color: rgb(226, 223, 223);
+}
+
+.container2{
+    display: flex;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+
+.first{
+    margin-right: 10px;
+}
+
+.name{
+    margin-left: 15px;
+}
+
+.input{
+    font-size: 15px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input3{
+    width: 528px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+input:focus {
+    border: 2px solid gray;
+}
+
+input:focus::placeholder{
+    color: transparent; 
+}
+
+select{
+    width: 528px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+
+select:focus{
+    background-color: rgb(226, 221, 221); 
+}
+
+.option{
+    display: none;
+}
+
+.para3{
+    margin-left: 15px;
+}
+
+.span3:hover{
+    cursor: pointer;
+}
+
+.span3{
+    color: blue;
+    text-decoration: underline;
+}
+
+.span4{
+    color: blue;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+button{
+    border: none;
+    box-shadow: 5px 10px 10px gray;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 528px;
+    padding: 8px;
+    font-size: 15px;
+    background-color: rgb(110, 210, 243);
+    color: white;
+}
